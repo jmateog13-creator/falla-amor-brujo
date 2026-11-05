@@ -76,11 +76,9 @@
   .glossari dd { margin: 0; color: var(--muted); }
   .copy cite { font-style: italic; }
 
-  ol.q { font-size: calc(var(--fs) * .85); padding-left: 1.4em; margin: 0; }
+  ol.q { clear: both; font-size: calc(var(--fs) * .85); padding: 14px 18px 4px 2.6em; margin: 0 0 32px; border-left: 3px solid var(--fire); background: rgba(255, 138, 61, .06); border-radius: 0 14px 14px 0; }
   ol.q > li { margin-bottom: .9em; padding-left: .3em; }
   ol.q li::marker { color: var(--fire); font-weight: 600; }
-  .vf { list-style: lower-alpha; margin: .4em 0 0; }
-  .pts { color: var(--muted); font-size: .85em; }
 
   footer { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 40px; }
 
@@ -95,9 +93,8 @@
 <body>
 <main>
   <header>
-    <div class="kicker">4t ESO · Música · Lectura i còpia</div>
+    <div class="kicker">4t ESO · Música · Lectura i còpia · 40 min</div>
     <h1>Manuel de Falla i <em>El amor brujo</em></h1>
-    <p class="sub"><strong>Part 1</strong> · Còpia · 20 min &nbsp;·&nbsp; <strong>Part 2</strong> · Preguntes · 15 min<br>Tot a la llibreta, amb bona lletra. <strong>Entrega la llibreta al final de la classe.</strong></p>
   </header>
 
   <div class="bar" role="toolbar" aria-label="Controls">
@@ -106,26 +103,8 @@
   </div>
 
   <section class="copy" aria-labelledby="h-copia">
-    <h2 id="h-copia">1. Copia el text</h2>
-    <p class="hint">Copia el títol «Manuel de Falla i <cite>El amor brujo</cite>» i els tres paràgrafs sencers (¶1, ¶2 i ¶3). No cal copiar els peus de foto.</p>
-
-    <figure class="side">
-      <img src="img/falla-1914.jpg" alt="Retrat de Manuel de Falla, home amb bigoti i vestit fosc" loading="lazy">
-      <figcaption>Manuel de Falla el 1914, l'any que torna de París.<small>Foto: A. Ciarán · Domini públic · Wikimedia Commons</small></figcaption>
-    </figure>
-    <p>Manuel de Falla (Cadis, 1876 – Alta Gracia, Argentina, 1946) és un dels compositors espanyols més importants del segle XX. De petit va aprendre piano amb la seva mare i, de jove, es va traslladar a Madrid per continuar estudiant. El 1907 se'n va anar a viure a París, on va conèixer Debussy, Ravel i Dukas, que el van ajudar a trobar la seva pròpia veu. Quan va tornar a Espanya, el 1914, tenia una idea clara: fer una música moderna que naixés de les arrels populars, sobretot del flamenc i del cant jondo andalús. No volia copiar les cançons tradicionals, sinó capturar-ne l'esperit.</p>
-
-    <figure class="side">
-      <img src="img/pastora-imperio.jpg" alt="Pintura de Pastora Imperio, ballarina amb mantó" loading="lazy">
-      <figcaption>Pastora Imperio, la bailaora que va estrenar el paper de Candela el 1915.<small>Julio Romero de Torres, 1913 · Domini públic · Wikimedia Commons</small></figcaption>
-    </figure>
-    <p>L'any 1915 va estrenar a Madrid <cite>El amor brujo</cite>, una obra per a cantaora i petita orquestra que més tard, el 1925, va convertir en ballet. Explica la història de Candela, una gitana perseguida pel fantasma gelós del seu antic amant, que se li apareix cada vegada que vol estimar el Carmelo. Per espantar l'esperit, Candela balla de nit al voltant d'una foguera: és la cèlebre «Dansa ritual del foc», amb trinats nerviosos que imiten les flames i un ritme obstinat que sembla un encanteri. Al final, la seva amiga Lucía distreu el fantasma, i Candela i el Carmelo es poden fer el petó que trenca la maledicció.</p>
-
-    <figure class="side">
-      <img src="img/falla-lorca-1926.jpg" alt="Fotografia en blanc i negre de Manuel de Falla i Federico García Lorca" loading="lazy">
-      <figcaption>Falla i Federico García Lorca (Granada, 1926).<small>Foto: Antonio de Luna · CC BY-SA 4.0 · Wikimedia Commons</small></figcaption>
-    </figure>
-    <p>El 1922, Falla va organitzar a Granada, amb el poeta Federico García Lorca, un famós concurs de cant jondo per salvar aquest art de l'oblit. Després de la Guerra Civil, trist i malalt, es va exiliar a l'Argentina, on va morir sense tornar mai a Espanya. La seva música, però, no ha deixat de viatjar: <cite>El amor brujo</cite> ha tingut versions de tota mena, de la guitarra de Paco de Lucía al jazz de Miles Davis o el cinema de Carlos Saura. Cada versió canvia l'instrument, l'estil o la imatge, però conserva el mateix foc.</p>
+    <h2 id="h-copia">Copia i respon</h2>
+    <p class="hint">Copia el títol «Manuel de Falla i <cite>El amor brujo</cite>». Després, per a cada paràgraf (¶1 a ¶4): copia'l sencer i, a sota, respon les seves preguntes amb frases completes. No cal copiar els peus de foto.</p>
 
     <dl class="glossari" aria-label="Vocabulari">
       <dt>cant jondo</dt><dd>cant flamenc antic i profund d'Andalusia</dd>
@@ -134,6 +113,46 @@
       <dt>foguera</dt><dd>foc gran que es fa a terra, a l'aire lliure</dd>
       <dt>exiliar-se</dt><dd>marxar del teu país, normalment obligat per la política o una guerra</dd>
     </dl>
+
+    <figure class="side">
+      <img src="img/falla-1914.jpg" alt="Retrat de Manuel de Falla, home amb bigoti i vestit fosc" loading="lazy">
+      <figcaption>Manuel de Falla el 1914, l'any que torna de París.<small>Foto: A. Ciarán · Domini públic · Wikimedia Commons</small></figcaption>
+    </figure>
+    <p>Manuel de Falla (Cadis, 1876 – Alta Gracia, Argentina, 1946) és un dels compositors espanyols més importants del segle XX. De petit va aprendre piano amb la seva mare i, de jove, es va traslladar a Madrid per continuar estudiant. El 1907 se'n va anar a viure a París, on va conèixer Debussy, Ravel i Dukas, que el van ajudar a trobar la seva pròpia veu. Quan va tornar a Espanya, el 1914, tenia una idea clara: fer una música moderna que naixés de les arrels populars, sobretot del flamenc i del cant jondo andalús. No volia copiar les cançons tradicionals, sinó capturar-ne l'esperit.</p>
+    <ol class="q" start="1">
+      <li>On i en quin any va néixer Manuel de Falla?</li>
+      <li>A quina ciutat se'n va anar a viure el 1907? Quins tres compositors hi va conèixer?</li>
+      <li>De quina música popular volia partir Falla per fer la seva música?</li>
+    </ol>
+
+    <figure class="side">
+      <img src="img/pastora-imperio.jpg" alt="Pintura de Pastora Imperio, ballarina amb mantó" loading="lazy">
+      <figcaption>Pastora Imperio, la bailaora que va estrenar el paper de Candela el 1915.<small>Julio Romero de Torres, 1913 · Domini públic · Wikimedia Commons</small></figcaption>
+    </figure>
+    <p>L'any 1915 va estrenar a Madrid <cite>El amor brujo</cite>, una obra per a cantaora i petita orquestra que més tard, el 1925, va convertir en ballet. Explica la història de Candela, una gitana perseguida pel fantasma gelós del seu antic amant, que se li apareix cada vegada que vol estimar el Carmelo. Per espantar l'esperit, Candela balla de nit al voltant d'una foguera: és la cèlebre «Dansa ritual del foc», amb trinats nerviosos que imiten les flames i un ritme obstinat que sembla un encanteri. Al final, la seva amiga Lucía distreu el fantasma, i Candela i el Carmelo es poden fer el petó que trenca la maledicció.</p>
+    <ol class="q" start="4">
+      <li>En quin any es va estrenar <cite>El amor brujo</cite>? En què la va convertir el 1925?</li>
+      <li>Com es diu la protagonista? Qui la persegueix?</li>
+      <li>Què fa Candela per espantar l'esperit? Què imiten els trinats?</li>
+    </ol>
+
+    <p>La música d'<cite>El amor brujo</cite> barreja dos mons. D'una banda hi ha l'orquestra clàssica, amb violins, flautes, trompetes i piano; de l'altra, el so del flamenc: la veu esquinçada de la cantaora, ritmes que recorden les palmes i melodies plenes d'ornaments, com les del cant jondo. A més de la «Dansa ritual del foc», l'obra té altres números famosos, com la «Cançó del foc fatu», que compara l'amor amb una llum que apareix i s'escapa, o la «Pantomima», lenta i misteriosa. Després d'aquesta obra, Falla va compondre <cite>Noches en los jardines de España</cite> i <cite>El sombrero de tres picos</cite>, i es va convertir en el gran compositor del nacionalisme musical espanyol.</p>
+    <ol class="q" start="7">
+      <li>Quins dos mons barreja la música d'<cite>El amor brujo</cite>?</li>
+      <li>A més de la «Dansa ritual del foc», quins altres dos números famosos té l'obra?</li>
+      <li>Quines dues obres va compondre Falla després d'<cite>El amor brujo</cite>?</li>
+    </ol>
+
+    <figure class="side">
+      <img src="img/falla-lorca-1926.jpg" alt="Fotografia en blanc i negre de Manuel de Falla i Federico García Lorca" loading="lazy">
+      <figcaption>Falla i Federico García Lorca (Granada, 1926).<small>Foto: Antonio de Luna · CC BY-SA 4.0 · Wikimedia Commons</small></figcaption>
+    </figure>
+    <p>El 1922, Falla va organitzar a Granada, amb el poeta Federico García Lorca, un famós concurs de cant jondo per salvar aquest art de l'oblit. Després de la Guerra Civil, trist i malalt, es va exiliar a l'Argentina, on va morir sense tornar mai a Espanya. La seva música, però, no ha deixat de viatjar: <cite>El amor brujo</cite> ha tingut versions de tota mena, de la guitarra de Paco de Lucía al jazz de Miles Davis o el cinema de Carlos Saura. Cada versió canvia l'instrument, l'estil o la imatge, però conserva el mateix foc.</p>
+    <ol class="q" start="10">
+      <li>Amb quin poeta va organitzar Falla el concurs de cant jondo? A quina ciutat?</li>
+      <li>On va morir Falla? Per què hi era?</li>
+      <li>Escriu dues de les versions d'<cite>El amor brujo</cite> que diu el text.</li>
+    </ol>
 
     <div class="duo">
       <figure>
@@ -145,31 +164,6 @@
         <figcaption>Falla a Alta Gracia (Argentina), el 1944, dos anys abans de morir.<small>Autor desconegut · Domini públic · Wikimedia Commons</small></figcaption>
       </figure>
     </div>
-  </section>
-
-  <section aria-labelledby="h-preg">
-    <h2 id="h-preg">2. Comprensió lectora</h2>
-    <p class="hint">Respon amb frases completes. Pots tornar a mirar el text.</p>
-    <ol class="q">
-      <li>On i en quin any va néixer Manuel de Falla?</li>
-      <li>A quina ciutat se'n va anar a viure el 1907? Quins tres compositors hi va conèixer?</li>
-      <li>De quina música popular volia partir Falla per fer la seva música?</li>
-      <li>En quin any es va estrenar <cite>El amor brujo</cite>? En què la va convertir el 1925?</li>
-      <li>Com es diu la protagonista? Qui la persegueix?</li>
-      <li>Què fa Candela per espantar l'esperit?</li>
-      <li>Què imiten els trinats de la «Dansa ritual del foc»?</li>
-      <li>Qui distreu el fantasma al final? Què trenca la maledicció?</li>
-      <li>Amb quin poeta va organitzar Falla el concurs de cant jondo? A quina ciutat?</li>
-      <li>On va morir Falla? Per què hi era?</li>
-      <li>Vertader o fals? Si és fals, escriu-ho bé.
-        <ol class="vf">
-          <li><cite>El amor brujo</cite> va néixer com a ballet.</li>
-          <li>Falla va aprendre piano amb la seva mare.</li>
-          <li>Després de la guerra, Falla va tornar a viure a Cadis.</li>
-        </ol>
-      </li>
-      <li>Escriu dues de les versions d'<cite>El amor brujo</cite> que diu el text.</li>
-    </ol>
   </section>
 
 
